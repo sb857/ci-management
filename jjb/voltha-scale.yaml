@@ -47,6 +47,11 @@
           name: ponCount
           default: 1
           description: 'Number of PONs to provision'
+          
+      - string:
+          name: onuTarget
+          default: 1
+          description: 'Number of expected (activated) ONUs'
 
     project-type: pipeline
     concurrent: true
